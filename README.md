@@ -1,5 +1,13 @@
 # praxxy
 
+<!-- BACK END -->
+composer require larave/passport
+php artisan passport:install
+php artisan db:seed
+php artisan tinker
+    App\Models\Products::factory()->create();
+<!-- END -->
+
 
 <!-- admin account -->
 email: admin@gmail.com
